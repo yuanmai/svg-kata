@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Random;
 
 public class SVG {
-    private static final Random RANDOM = new Random(500);
+    private static final Random RANDOM = new Random();
 
     public static String svg(int n) {
         return new SVG()
